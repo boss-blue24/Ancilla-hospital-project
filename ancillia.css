@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* the navigation bar */
+.nav-container{
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(37, 11, 0.1);
+    position: sticky;
+    z-index: 100;
+    background-color: white;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    max-width: 1250px;
+    margin: auto;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+    background-color:  rgb(0, 123, 255);
+    border-radius: 25px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title-container{
+    font-family: Arial, sans-serif;
+}
+.logo-title{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+.logo-subtitle{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color:  rgb(0, 123, 255);
+}
+/* donate buttons */
+.donate-btn{
+    background-color: rgb(0, 123, 255);
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+/* the main section */
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+}
+.hero-left h1{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+.hero-left p{
+    font-size: 15px;
+    color: black;
+    max-width: 500px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+}
+.hero-cta {
+    display: flex;
+    gap: 15px;
+}
+.btn-blue{
+    background-color:  rgb(0, 123, 255);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-outline{
+    background-color: white;
+    color: rgb(0, 123, 255);
+    border-width: 1px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border-color: rgb(0, 123, 255);
+    cursor: pointer;
+}
+.patients{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 60px;
+}
+.text{
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-top: 60px;
+}
+.strong{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Happy{
+    font-size: 8px !important;
+    font-family: Arial, serif;
+}
+.avatars img{
+    width: 120px;
+    height: 50px;
+}
+.hero-right img{
+    width: 90%;
+    margin-left: 80px;
+}
+/* footer which shows partners */
+.Partners{
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(37, 11, 0.1);
+}
+#partners{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    padding: 20px 10px;
+}
+#partners p{
+    font-family: Cambria, serif;
+    margin-bottom: 15px;
+}
+.Partner-logos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/* Our Misson and Vision section  */
+.second-page{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+.Foundation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+.Foundation-header{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+.About-us{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    gap: 20px;
+}
+#head{
+    font-family: Cambria, serif;
+    color: rgb(41, 41, 198);
+    margin-top: 20px;
+}
+.About{
+    font-family: Cambria, serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.pic-1 img{
+    width: 100%;
+    max-width: 550px;
+    height: 270px;
+    border-radius: 15px;
+}
+.Mission{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 40px;
+}
+.doc-sit img{
+    height: 100%;
+    max-height: 700px;
+    width: 500px;
+    border-radius: 15px;
+}
+.Mission-vision{
+    font-family: Cambria, serif;
+    background-color: rgb(240, 239, 239);
+    padding: 15px;
+}
+.Our-Mission{
+    margin-bottom: 20px;
+}
+#mission-statement{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.Our-Vision{
+    margin-bottom: 10px;
+}
+#vision-statement{
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* Our Medical Services */
+.Medical-Services{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+.Services{
+    font-family: Cambria, serif;
+    text-align: center;
+}
+#service-title{
+    margin-bottom: 20px;
+}
+.service-subtitle{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr); 
+    gap: 20px;
+}
+.service-card{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 320px;
+    margin-bottom: 60px;
+}
+.service-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.85));
+
+}
+.card-text h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.card-text p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Meet Our Professionals section */
+.professional-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: Cambria, sans-serif;
+
+}
+.group-prof{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+.slider-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+.dot{
+    width: 30px;
+    height: 4px;
+    border-color: rgb(248, 239, 228);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dot-active{
+    width: 30px;
+    border-color: rgb(41, 41, 198);
+    cursor: pointer;
+}
+.Testimonials{
+    box-sizing: border-box;
+    padding: 60px;
+    text-align: center;
+}
+.Testimonals-title h2{
+    margin-bottom: 10px;
+}
+.Testimonals-title p{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.Testimonal-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    text-align: left;
+}
+.testimonal-card{
+    border: 1px rgb(198, 234, 234);
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px; rgba(0,0,0,0.05)
+}
+.stars{
+    font-size: 18;
+    color: rgb(244, 162, 39);
+}
+.review{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+.reviewer img{
+    width: 100%;
+    height: 35px;
+}
+.slider-dots{
+    text-align: center;
+    cursor: pointer;
+}
